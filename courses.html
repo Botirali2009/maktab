@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="utf-8">
+    <title>KASBI IM</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="kasbi im, kasbi maktabi, kasbi tumani maktabi, qashqadaryo ta'lim, ixtisoslashtirilgan maktab, maktab, ta'lim" name="keywords">
+    <meta content="Kasbi tumani ixtisoslashtirilgan maktabi – zamonaviy maktab. O‘quvchilar uchun darsliklar, maktab yangiliklari va foydali resurslar bor." name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Yuklanmoqda...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <h2 class="m-0 text-primary"><i class="fa fa-book me-3"></i>KASBI IM</h2>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link">Bosh sahifa</a>
+                <a href="about.html" class="nav-item nav-link">Maktab haqida</a>
+                <a href="courses.html" class="nav-item nav-link active">Yangiliklar</a>
+                <div class="nav-item dropdown">
+                    <a href="library.html" class="nav-link" id="kutubxonaLink" data-bs-toggle="dropdown" aria-expanded="false">
+                        Kutubxona
+                    </a>
+                    <div class="dropdown-menu fade-down m-0" aria-labelledby="kutubxonaLink">
+                        <a href="5-sinf.html" class="dropdown-item">5-sinf</a>
+                        <a href="6-sinf.html" class="dropdown-item">6-sinf</a>
+                        <a href="7-sinf.html" class="dropdown-item">7-sinf</a>
+                        <a href="8-sinf.html" class="dropdown-item">8-sinf</a>
+                        <a href="9-sinf.html" class="dropdown-item">9-sinf</a>
+                        <a href="10-sinf.html" class="dropdown-item">10-sinf</a>
+                        <a href="11-sinf.html" class="dropdown-item">11-sinf</a>
+                        <a href="badiiy.html" class="dropdown-item">Badiiy adabiyotlar</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Sahifalar</a>
+                    <div class="dropdown-menu fade-down m-0">
+                        <a href="team.html" class="dropdown-item">Bizning jamoa</a>
+                        <a href="testimonial.html" class="dropdown-item">Fikrlar</a>
+                        <a href="sport.html" class="dropdown-item ">Sport</a>
+                        <a href="amaliy.html" class="dropdown-item">amaliy mashg'ulotlar</a>
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">Bog'lanish</a>
+            </div>
+            <a href="join.html" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Hoziroq qo'shiling<i class="fa fa-arrow-right ms-3"></i></a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!--fixed-->
+<!-- Font Awesome ulanishi -->
+<div class="social-icons">
+    <a href="https://www.facebook.com/groups/kasbituman11idum/?ref=share" target="_blank" class="social-btn facebook" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://t.me/DIUM11kasbituman" target="_blank" class="social-btn telegram" aria-label="Telegram"><i class="fab fa-telegram-plane"></i></a>
+    <a href="#" class="social-btn instagram" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+    <a href="#" class="social-btn youtube" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+</div>
+
+<!--fixed end-->
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-primary py-5 mb-5 page-header">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <h1 class="display-3 text-white animated slideInDown">Yangiliklar</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item"><a class="text-white" href="index.html">Bosh sahifa</a></li>
+                            <li class="breadcrumb-item"><a class="text-white" href="#">sahifalar</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Yangiliklar</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+<div class="container py-5">
+  <div class="row justify-content-center g-4">
+
+        <!-- Yangilik 1 -->
+    <div class="col-12 col-md-10 col-lg-8">
+            <div class="card shadow border-0 news-card position-relative">
+              <div class="slider-wrapper position-relative overflow-hidden">
+                <div class="slider-images d-flex transition" id="newsSlider1">
+                  <img src="img/yangiliklar/ochiqeshik/ochiqeshik.jpg" alt="Ochiq eshiklar" class="img-fluid w-100 flex-shrink-0">
+                  <img src="img/yangiliklar/ochiqeshik/ochiqmaktab.jpg" alt="Ochiq eshiklar" class="img-fluid w-100 flex-shrink-0">
+                </div>
+                <button class="slider-arrow left-arrow" onclick="slideNewsById('newsSlider1', -1)">&#10094;</button>
+                <button class="slider-arrow right-arrow" onclick="slideNewsById('newsSlider1', 1)">&#10095;</button>
+              </div>
+              <div class="card-body">
+                  <small class="text-muted d-block mb-2">26-aprel & 2-may 2025 • E’lon</small>
+                  <h5 class="card-title text-primary">Ochiq eshiklar kuni </h5>
+                  <p class="card-text">
+                    ⚡️ Joriy yilning 26-aprel va 2-may kunlari Ixtisoslashtirilgan taʼlim muassasalari agentligi tizimidagi Kasbi tuman ixtisoslashtirilgan maktabida "Ochiq eshiklar" kuni boʻlib oʻtdi.
+                    <br><br>
+                    <strong>Ochiq eshiklar kunida:</strong><br>
+                    ➖ Maktabdagi oʻqitish tizimi va metodikasi haqida taqdimot qilindi<br>
+                    ➖ Oʻquvchilar uchun yaratilgan shart-sharoitlar bilan tanishtirildi<br>
+                    ➖ Koʻrgazmalar va dars jarayonlaridan namunalar namoyish etildi<br>
+                    ➖ Maktab hududi boʻylab ekskursiya uyushtirildi
+                    <br><br>
+                    📆 <strong>26-aprel va 2-may, soat 09:30 – 14:00</strong><br>
+                    📍 <strong>Manzil:</strong> Kasbi tumani, Oqqamish mahallasi, Namuna ko‘chasi, 1-uy<br>
+                    📞 <strong>Aloqa:</strong> (97) 312 52 82 • (90) 721 21 25
+                    <br><br>
+                    <strong>Ijtimoiy tarmoqlar:</strong><br>
+                    <a href="https://t.me/DIUM11kasbituman" target="_blank">Telegram</a> |
+                    <a href="https://www.facebook.com/groups/kasbituman11idum/?ref=share" target="_blank">Facebook</a>
+                  </p>
+                </div>
+                
+            </div>
+        </div>
+
+
+
+
+            <!-- Yangilik 2 -->
+    <div class="col-12 col-md-10 col-lg-8">
+        <div class="card shadow border-0 news-card position-relative">
+          <div class="slider-wrapper position-relative overflow-hidden">
+            <div class="slider-images d-flex transition" id="newsSlider2">
+                <img src="img/yangiliklar/ochiqeshik/26-aprel/1.jpg" class="img-fluid w-100 flex-shrink-0">
+                <img src="img/yangiliklar/ochiqeshik/26-aprel/2.jpg" class="img-fluid w-100 flex-shrink-0">
+                <img src="img/yangiliklar/ochiqeshik/26-aprel/3.jpg" class="img-fluid w-100 flex-shrink-0">
+                <img src="img/yangiliklar/ochiqeshik/26-aprel/4.jpg" class="img-fluid w-100 flex-shrink-0">
+                <img src="img/yangiliklar/ochiqeshik/26-aprel/5.jpg" class="img-fluid w-100 flex-shrink-0">
+                <img src="img/yangiliklar/ochiqeshik/26-aprel/6.jpg" class="img-fluid w-100 flex-shrink-0">
+                <img src="img/yangiliklar/ochiqeshik/26-aprel/7.jpg" class="img-fluid w-100 flex-shrink-0">
+                <img src="img/yangiliklar/ochiqeshik/26-aprel/8.jpg" class="img-fluid w-100 flex-shrink-0">
+                <img src="img/yangiliklar/ochiqeshik/26-aprel/9.jpg" class="img-fluid w-100 flex-shrink-0">
+                <img src="img/yangiliklar/ochiqeshik/26-aprel/10.jpg" class="img-fluid w-100 flex-shrink-0">
+              </div>
+              
+            <button class="slider-arrow left-arrow" onclick="slideNewsById('newsSlider2', -1)">&#10094;</button>
+            <button class="slider-arrow right-arrow" onclick="slideNewsById('newsSlider2', 1)">&#10095;</button>
+          </div>
+          <div class="card-body">
+            <small class="text-muted d-block mb-2">26-aprel 2025 • Ochiq eshiklar kuni</small>
+            <h5 class="card-title text-primary">26-aprel — Ochiq eshiklar kuni</h5>
+            <p class="card-text">
+              ⚡️ 26-aprel kuni Ixtisoslashtirilgan taʼlim muassasalari agentligi tizimidagi Kasbi tuman ixtisoslashtirilgan maktabida "Ochiq eshiklar" kuni boʻlib oʻtdi.
+              <br><br>
+              <strong>Ochiq eshiklar kunida:</strong><br>
+              ➖ Maktabdagi oʻqitish tizimi va metodikasi haqida taqdimot qilindi<br>
+              ➖ Oʻquvchilar uchun yaratilgan shart-sharoitlar bilan tanishtirildi<br>
+              ➖ Koʻrgazmalar (oʻquvchilarning dars va noakademik to‘garaklaridagi amaliy ishlaridan namunalar) oʻtkazildi<br>
+              ➖ Maktab hududi boʻylab ekskursiya uyushtirildi
+              <br><br>
+              <strong>Ijtimoiy tarmoqlar:</strong><br>
+              <a href="https://t.me/DIUM11kasbituman" target="_blank">Telegram</a> |
+              <a href="https://www.facebook.com/groups/kasbituman11idum/?ref=share" target="_blank">Facebook</a>
+            </p>
+          </div>
+          
+        </div>
+      </div>
+
+
+      <!-- Yangilik 3 -->
+    <div class="col-12 col-md-10 col-lg-8">
+        <div class="card shadow border-0 news-card position-relative">
+          <div class="slider-wrapper position-relative overflow-hidden">
+            <div class="slider-images d-flex transition" id="newsSlider3">
+              <img src="img/yangiliklar/ochiqeshik/11-aprel/1.jpg" class="img-fluid w-100 flex-shrink-0">
+              <img src="img/yangiliklar/ochiqeshik/11-aprel/2.jpg" class="img-fluid w-100 flex-shrink-0">
+              <img src="img/yangiliklar/ochiqeshik/11-aprel/3.jpg" class="img-fluid w-100 flex-shrink-0">
+              <img src="img/yangiliklar/ochiqeshik/11-aprel/4.jpg" class="img-fluid w-100 flex-shrink-0">
+              <img src="img/yangiliklar/ochiqeshik/11-aprel/5.jpg" class="img-fluid w-100 flex-shrink-0">
+            </div>
+            <button class="slider-arrow left-arrow" onclick="slideNewsById('newsSlider3', -1)">&#10094;</button>
+            <button class="slider-arrow right-arrow" onclick="slideNewsById('newsSlider3', 1)">&#10095;</button>
+          </div>
+          <div class="card-body">
+            <small class="text-muted d-block mb-2">11-aprel 2025 • Ochiq eshiklar kuni</small>
+            <h5 class="card-title text-primary">11-aprel — Ochiq eshiklar kuni</h5>
+            <p class="card-text">
+              Kasbi tuman ixtisoslashtirilgan maktabida navbatdagi "Ochiq eshiklar kuni" bo‘lib o‘tdi. Ushbu tadbirda tumandagi 32-umumiy o‘rta ta’lim maktabining 7-sinf o‘quvchilari sinf rahbari Latif Qobulov boshchiligida maktabimizga tashrif buyurishdi.
+              <br><br>
+              Tashrif davomida mehmon o‘quvchilar maktabimizdagi o‘quv faoliyati, imkoniyatlar, moddiy-texnik baza, fan va sport to‘garaklari haqida batafsil ma’lumotlarga ega bo‘lishdi.
+              <br><br>
+              <strong>Ijtimoiy tarmoqlar:</strong><br>
+              <a href="https://t.me/DIUM11kasbituman" target="_blank">Telegram</a> |
+              <a href="https://www.facebook.com/groups/kasbituman11idum/?ref=share" target="_blank">Facebook</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      
+        <!-- Yangilik 4 -->
+        <div class="col-12 col-md-10 col-lg-8">
+            <div class="card shadow border-0 news-card position-relative">
+              <div class="slider-wrapper position-relative overflow-hidden">
+                <div class="slider-images d-flex transition" id="newsSlider4">
+                  <img src="img/yangiliklar/ochiqeshik/8-aprel/1.jpg" class="img-fluid w-100 flex-shrink-0">
+                  <img src="img/yangiliklar/ochiqeshik/8-aprel/2.jpg" class="img-fluid w-100 flex-shrink-0">
+                  <img src="img/yangiliklar/ochiqeshik/8-aprel/3.jpg" class="img-fluid w-100 flex-shrink-0">
+                  <img src="img/yangiliklar/ochiqeshik/8-aprel/4.jpg" class="img-fluid w-100 flex-shrink-0">
+                </div>
+                <button class="slider-arrow left-arrow" onclick="slideNewsById('newsSlider4', -1)">&#10094;</button>
+                <button class="slider-arrow right-arrow" onclick="slideNewsById('newsSlider4', 1)">&#10095;</button>
+              </div>
+              <div class="card-body">
+                <small class="text-muted d-block mb-2">8-aprel 2025 • Ochiq eshiklar kuni</small>
+                <h5 class="card-title text-primary">8-aprel — Ochiq eshiklar kuni</h5>
+                <p class="card-text">
+                  Kasbi tuman ixtisoslashtirilgan maktabida "Ochiq eshiklar kuni" tadbiri doirasida 32-umumiy o‘rta ta’lim maktabining 7-sinf o‘quvchilari tashrif buyurishdi.
+                  <br><br>
+                  Tashrif davomida o‘quvchilar maktab faoliyati, moddiy-texnik imkoniyatlar, fan va sport to‘garaklari, erishilgan yutuqlar bilan tanishishdi.
+                  <br><br>
+                  <strong>Ijtimoiy tarmoqlar:</strong><br>
+                  <a href="https://t.me/DIUM11kasbituman" target="_blank">Telegram</a> |
+                  <a href="https://www.facebook.com/groups/kasbituman11idum/?ref=share" target="_blank">Facebook</a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+            <!-- Yangilik 5 -->
+          <div class="col-12 col-md-10 col-lg-8">
+            <div class="card shadow border-0 news-card position-relative">
+              <div class="slider-wrapper position-relative overflow-hidden">
+                <div class="slider-images d-flex transition" id="newsSlider5">
+                  <img src="img/yangiliklar/ochiqeshik/7-aprel/1.jpg" class="img-fluid w-100 flex-shrink-0">
+                  <img src="img/yangiliklar/ochiqeshik/7-aprel/2.jpg" class="img-fluid w-100 flex-shrink-0">
+                  <img src="img/yangiliklar/ochiqeshik/7-aprel/3.jpg" class="img-fluid w-100 flex-shrink-0">
+                  <img src="img/yangiliklar/ochiqeshik/7-aprel/4.jpg" class="img-fluid w-100 flex-shrink-0">
+                </div>
+                <button class="slider-arrow left-arrow" onclick="slideNewsById('newsSlider5', -1)">&#10094;</button>
+                <button class="slider-arrow right-arrow" onclick="slideNewsById('newsSlider5', 1)">&#10095;</button>
+              </div>
+              <div class="card-body">
+                <small class="text-muted d-block mb-2">7-aprel 2025 • Ochiq eshiklar kuni</small>
+                <h5 class="card-title text-primary">7-aprel — Ochiq eshiklar kuni</h5>
+                <p class="card-text">
+                  Kasbi tuman ixtisoslashtirilgan maktabida "Ochiq eshiklar kuni" davom etmoqda. 7-aprel kuni maktabimizga tashrif buyurgan mehmonlar o‘quvchilar uchun yaratilgan imkoniyatlar, maktabdagi dars jarayonlari, fan va sport to‘garaklari bilan yaqindan tanishishdi.
+                  <br><br>
+                  Tashrif davomida maktabning moddiy-texnik bazasi, o‘qituvchilarning malakasi, kutubxona va laboratoriyalar faoliyati haqida keng ma’lumotlar berildi. Tashrifchilar ochiq darslarda ishtirok etib, o‘quvchilarning bilim va faolligiga baho berishdi.
+                  <br><br>
+                  <strong>Ijtimoiy tarmoqlar:</strong><br>
+                  <a href="https://t.me/DIUM11kasbituman" target="_blank">Telegram</a> |
+                  <a href="https://www.facebook.com/groups/kasbituman11idum/?ref=share" target="_blank">Facebook</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          
+
+            <!-- Yangilik 6 -->
+            <div class="col-12 col-md-10 col-lg-8">
+                <div class="card shadow border-0 news-card position-relative">
+                  <div class="slider-wrapper position-relative overflow-hidden">
+                    <div class="slider-images d-flex transition" id="newsSlider6">
+                      <img src="img/yangiliklar/otaonalar/1.jpg" class="img-fluid w-100 flex-shrink-0">
+                      <img src="img/yangiliklar/otaonalar/2.jpg" class="img-fluid w-100 flex-shrink-0">
+                      <img src="img/yangiliklar/otaonalar/3.jpg" class="img-fluid w-100 flex-shrink-0">
+                      <img src="img/yangiliklar/otaonalar/4.jpg" class="img-fluid w-100 flex-shrink-0">
+                      <img src="img/yangiliklar/otaonalar/5.jpg" class="img-fluid w-100 flex-shrink-0">
+                      <img src="img/yangiliklar/otaonalar/6.jpg" class="img-fluid w-100 flex-shrink-0">
+                      <img src="img/yangiliklar/otaonalar/7.jpg" class="img-fluid w-100 flex-shrink-0">
+                    </div>
+                    <button class="slider-arrow left-arrow" onclick="slideNewsById('newsSlider6', -1)">&#10094;</button>
+                    <button class="slider-arrow right-arrow" onclick="slideNewsById('newsSlider6', 1)">&#10095;</button>
+                  </div>
+                  <div class="card-body">
+                    <small class="text-muted d-block mb-2">2025 • Yangilik</small>
+                    <h5 class="card-title text-primary">Ota-onalar bilan navbatdagi yig‘ilishlar o‘tkazilmoqda</h5>
+                    <p class="card-text">
+                      Kasbi tuman ixtisoslashtirilgan maktabida sinf ota-onalari bilan muntazam uchrashuvlar tashkil etilmoqda. Yig‘ilishlarda o‘quvchilarning o‘zlashtirish ko‘rsatkichlari, maktab ichki tartibi, odob-axloq, dars rejimi va kun tartibi haqida ma’lumotlar berildi.
+                      <br><br>
+                      To‘garaklar, kitob mutolaasi, maktab formasi va boshqa muhim jihatlar muhokama qilindi. Ota-onalarga foydali tavsiyalar berildi.
+                      <br><br>
+                      <strong>Ijtimoiy tarmoqlar:</strong><br>
+                      <a href="https://t.me/DIUM11kasbituman" target="_blank">Telegram</a> |
+                      <a href="https://www.facebook.com/groups/kasbituman11idum/?ref=share" target="_blank">Facebook</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              
+
+
+              <!--Yangilik 7-->
+              <div class="col-12 col-md-10 col-lg-8">
+                <div class="card shadow border-0 news-card position-relative">
+                  <div class="slider-wrapper position-relative overflow-hidden">
+                    <div class="slider-images d-flex transition" id="newsSlider7">
+                      <img src="img/yangiliklar/sport/1.jpg" class="img-fluid w-100 flex-shrink-0">
+                      <img src="img/yangiliklar/sport/2.jpg" class="img-fluid w-100 flex-shrink-0">
+                      <img src="img/yangiliklar/sport/3.jpg" class="img-fluid w-100 flex-shrink-0">
+                      <img src="img/yangiliklar/sport/4.jpg" class="img-fluid w-100 flex-shrink-0">
+                      <img src="img/yangiliklar/sport/5.jpg" class="img-fluid w-100 flex-shrink-0">
+                      <img src="img/yangiliklar/sport/6.jpg" class="img-fluid w-100 flex-shrink-0">
+                      <img src="img/yangiliklar/sport/7.jpg" class="img-fluid w-100 flex-shrink-0">
+                      <img src="img/yangiliklar/sport/8.jpg" class="img-fluid w-100 flex-shrink-0">
+                      <img src="img/yangiliklar/sport/9.jpg" class="img-fluid w-100 flex-shrink-0">
+                      <img src="img/yangiliklar/sport/10.jpg" class="img-fluid w-100 flex-shrink-0">
+                    </div>
+                    <button class="slider-arrow left-arrow" onclick="slideNewsById('newsSlider7', -1)">&#10094;</button>
+                    <button class="slider-arrow right-arrow" onclick="slideNewsById('newsSlider7', 1)">&#10095;</button>
+                  </div>
+              
+                  <div class="card-body">
+                    <small class="text-muted d-block mb-2">2025 • Sport yangiliklari</small>
+                    <h5 class="card-title text-primary">Futbol kubogi uchun qur’a tashlash marosimi</h5>
+                    <p class="card-text">
+                      Kasbi tuman ixtisoslashtirilgan maktabida o‘quvchilar o‘rtasida sportning futbol turi bo‘yicha maktab kubogi uchun qur’a tashlash marosimi bo‘lib o‘tdi. Tadbirda barcha sinf vakillari, sport rahbarlari va o‘qituvchilar ishtirok etishdi.
+                      <br><br>
+                      Bellashuvlar 7–11-aprel kunlari o‘quv mashg‘ulotlaridan so‘ng, maktabning sun’iy qoplamali futbol maydonida o‘tkaziladi. Musobaqa ikki guruhda: 5–7-sinflar va 8–11-sinflar o‘rtasida bo‘lib o‘tadi.
+                    </p>
+              
+                    <a href="sport.html" class="btn btn-outline-primary mt-3">
+                      ⚽ Batafsil
+                    </a>
+                  </div>
+                </div>
+              </div>
+              
+          
+
+      
+
+
+
+          
+      
+      
+
+      <style>
+        /* Rasmlar va card umumiy */
+        .news-card img {
+          max-height: 450px;
+          object-fit: cover;
+        }
+        
+        .slider-wrapper {
+          position: relative;
+        }
+        
+        .slider-images {
+          display: flex;
+          transition: transform 0.5s ease-in-out;
+        }
+        
+        /* Strelkalar */
+        .slider-arrow {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          background: rgba(0,0,0,0.4);
+          color: white;
+          border: none;
+          font-size: 24px;
+          width: 36px;
+          height: 36px;
+          border-radius: 50%;
+          display: none;
+          justify-content: center;
+          align-items: center;
+          cursor: pointer;
+          z-index: 5;
+        }
+        
+        .slider-arrow.left-arrow {
+          left: 10px;
+        }
+        .slider-arrow.right-arrow {
+          right: 10px;
+        }
+        
+        /* Faqat rasm ustiga sichqoncha borganda strelka chiqsin */
+        .slider-wrapper:hover .slider-arrow {
+          display: flex;
+        }
+        
+        /* Mobilda doim ko‘rinadi */
+        @media (max-width: 768px) {
+          .slider-arrow {
+            display: flex !important;
+          }
+        }
+        
+        /* Text qismlari */
+        .card-title {
+          font-weight: 600;
+        }
+        .card-text {
+          line-height: 1.7;
+        }
+        </style>
+        
+
+        <script>
+            const sliders = {};
+            
+            function slideNewsById(id, direction) {
+              const slider = document.getElementById(id);
+              const images = slider.querySelectorAll("img, iframe");
+            
+              if (!sliders[id]) sliders[id] = 0;
+            
+              sliders[id] = (sliders[id] + direction + images.length) % images.length;
+              slider.style.transform = `translateX(-${sliders[id] * 100}%)`;
+            }
+            </script>
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Categories Start -->
+    <div class="container-xxl py-5 category">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Sport</h6>
+                <h1 class="mb-5">Fubol turniri 2025</h1>
+            </div>
+            <div class="row g-3">
+                <div class="col-lg-7 col-md-6">
+                    <div class="row g-3">
+                        <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
+                            <a class="position-relative d-block overflow-hidden" href="sport.html">
+                                <img class="img-fluid" src="img/sport/9bvs10b.jpg" alt="">
+                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                                    <h5 class="m-0">9-B sinf jamoasi</h5>
+                                    <small class="text-primary">Barusiya Dortmond</small>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
+                            <a class="position-relative d-block overflow-hidden" href="sport.html">
+                                <img class="img-fluid" src="img/sport/BVBlogo.jpg" alt="">
+                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                                    <h5 class="m-0">BVB logo</h5>
+                                    <small class="text-primary">Barusiya Dortmond</small>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
+                            <a class="position-relative d-block overflow-hidden" href="sport.html">
+                                <img class="img-fluid" src="img/sport/matchresult10.04.2025.jpg" alt="">
+                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                                    <h5 class="m-0">Natijalar</h5>
+                                    <small class="text-primary">2 ta o'yin</small>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
+                    <a class="position-relative d-block h-100 overflow-hidden" href="sport.html">
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/sport/finalresult2025.jpg" alt="" style="object-fit: cover;">
+                        <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin:  1px;">
+                            <h5 class="m-0">Final natijalari</h5>
+                            <small class="text-primary">11-B G'olib</small>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Categories Start -->
+
+
+    <!-- Courses Start --
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Kurslar</h6>
+                <h1 class="mb-5">Mashhur Kurslar</h1>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/course-1.jpg" alt="">
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Ko'proq o'qing</a>
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Hoziroq qo'shiling</a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <h3 class="mb-0">$149.00</h3>
+                            <div class="mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small>(123)</small>
+                            </div>
+                            <h5 class="mb-4">Video montaj darslari boshlovchilar uchun</h5>
+                        </div>
+                        <div class="d-flex border-top">
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>Botirali Pardayev</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30 ta o'quvchi</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/course-2.jpg" alt="">
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Ko'proq o'qing</a>
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Hoziroq qo'shiling</a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <h3 class="mb-0">$149.00</h3>
+                            <div class="mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small>(123)</small>
+                            </div>
+                            <h5 class="mb-4">Word & Exel darslari boshlovchilar uchun</h5>
+                        </div>
+                        <div class="d-flex border-top">
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>Botirali Pardayev</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30 ta o'quvchi</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/course-3.jpg" alt="">
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Ko'proq o'qing</a>
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Hoziroq qo'shiling</a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <h3 class="mb-0">$149.00</h3>
+                            <div class="mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small>(123)</small>
+                            </div>
+                            <h5 class="mb-4">Onlayn vebsayt yaratish darslari boshlovchilar uchun</h5>
+                        </div>
+                        <div class="d-flex border-top">
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>Botirali Pardayev</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30 ta o'quvchi</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    -- Courses End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="text-center">
+                <h6 class="section-title bg-white text-center text-primary px-3">Fikrlar</h6>
+                <h1 class="mb-5">Bizning o'quvchilar fikrlari!</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel position-relative">
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-1.jpg" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">O'quvchi ismi</h5>
+                    <p>Yo'nalishi</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">Bu yerda o'quvchilar qoldirgan izohlar bo'ladi.</p>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-2.jpg" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">O'quvchi ismi</h5>
+                    <p>Yo'nalishi</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">Bu yerda o'quvchilar qoldirgan izohlar bo'ladi.</p>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-3.jpg" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">O'quvchi ismi</h5>
+                    <p>Yo'nalishi</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">Bu yerda o'quvchilar qoldirgan izohlar bo'ladi.</p>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-4.jpg" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">O'quvchi ismi</h5>
+                    <p>Yo'nalishi</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">Bu yerda o'quvchilar qoldirgan izohlar bo'ladi.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+        
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <!-- Quick Links -->
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Quick Link</h4>
+                    <a class="btn btn-link" href="">About Us</a>
+                    <a class="btn btn-link" href="">Contact Us</a>
+                    <a class="btn btn-link" href="">Privacy Policy</a>
+                    <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="">FAQs & Help</a>
+                </div>
+    
+                <!-- Contact Info -->
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Bog'lanish</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Kasbi tumani, Oqqamish MFY, Namuna ko'chasi, 1-uy</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+998 88-311-00-50</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>ixm113@piima.uz</p>
+                    <p class="mb-0">ptma.kasbi.im@gmail.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-telegram-plane"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+    
+                <!-- Gallery -->
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Rasmlar</h4>
+                    <div class="row g-2 pt-2">
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-1.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-2.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-3.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-2.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-3.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Newsletter -->
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Yangi xabarlar</h4>
+                    <p>Royxatdan o'tib xabar yuborshingiz mumkin.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">ro'yxatdan o'ting</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Footer Copyright -->
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="kasbi-im" href="#">KASBI IM</a>, All Rights Reserved.
+                        <br>
+                        Designed by 
+                        <a class="footer-link" href="https://htmlcodex.com" target="_blank">HTML Codex</a> | 
+                        Developed by 
+                        <a class="footer-link" href="https://your-infinity-crew-link.com" target="_blank">INFINITY CREW</a>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="">Bosh sahifa</a>
+                            <a href="">Cookie fayllar</a>
+                            <a href="">Yordam</a>
+                            <a href="">FAQs</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

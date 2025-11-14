@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="utf-8">
+    <title>KASBI IM</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Kasbi IM, maktab, o‘quvchilar, ta’lim, darsliklar" name="keywords">
+    <meta content="Kasbi tumani ixtisoslashtirilgan maktabi – zamonaviy maktab. O‘quvchilar uchun darsliklar, maktab yangiliklari va foydali resurslar bor." name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Yuklanmoqda...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <h2 class="m-0 text-primary"><i class="fa fa-book me-3"></i>KASBI IM</h2>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link">Bosh sahifa</a>
+                <a href="about.html" class="nav-item nav-link">Maktab haqida</a>
+                <a href="courses.html" class="nav-item nav-link">Yangiliklar</a>
+                <div class="nav-item dropdown">
+                    <a href="library.html" class="nav-link" id="kutubxonaLink" data-bs-toggle="dropdown" aria-expanded="false">
+                        Kutubxona
+                    </a>
+                    <div class="dropdown-menu fade-down m-0" aria-labelledby="kutubxonaLink">
+                        <a href="5-sinf.html" class="dropdown-item">5-sinf</a>
+                        <a href="6-sinf.html" class="dropdown-item">6-sinf</a>
+                        <a href="7-sinf.html" class="dropdown-item">7-sinf</a>
+                        <a href="8-sinf.html" class="dropdown-item">8-sinf</a>
+                        <a href="9-sinf.html    " class="dropdown-item">9-sinf</a>
+                        <a href="10-sinf.html" class="dropdown-item">10-sinf</a>
+                        <a href="11-sinf.html" class="dropdown-item">11-sinf</a>
+                        <a href="badiiy.html" class="dropdown-item">Badiiy adabiyotlar</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Sahifalar</a>
+                    <div class="dropdown-menu fade-down m-0">
+                        <a href="team.html" class="dropdown-item active">Bizning jamoa</a>
+                        <a href="testimonial.html" class="dropdown-item">Fikrlar</a>
+                        <a href="sport.html" class="dropdown-item ">Sport</a>
+                        <a href="amaliy.html" class="dropdown-item">amaliy mashg'ulotlar</a>
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">Bog'lanish</a>
+            </div>
+            <a href="join.html" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Hoziroq qo'shiling<i class="fa fa-arrow-right ms-3"></i></a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!--fixed-->
+<!-- Font Awesome ulanishi -->
+<div class="social-icons">
+    <a href="https://www.facebook.com/groups/kasbituman11idum/?ref=share" target="_blank" class="social-btn facebook" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://t.me/DIUM11kasbituman" target="_blank" class="social-btn telegram" aria-label="Telegram"><i class="fab fa-telegram-plane"></i></a>
+    <a href="#" class="social-btn instagram" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+    <a href="#" class="social-btn youtube" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+</div>
+
+<!--fixed end-->
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-primary py-5 mb-5 page-header">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <h1 class="display-3 text-white animated slideInDown">Bu yerda O'zbek va Jahon adabiyoti durdonalarini topishingiz mumkin.</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item"><a class="text-white" href="#">Bosh sahifa</a></li>
+                            <li class="breadcrumb-item"><a class="text-white" href="#">Sahifalar</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Badiiy adabiyot</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- Team Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Kitoblar</h6>
+                <h1 class="mb-5">Badiiy adabiyotlar</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/Kitoblar/badiiy/xamsa.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href="https://kitobsevar.uz/kxpv/xrpt_ab2uizoo67z6hpj6checmeg8lixl65v66modb6s72h29za52i04vdaspje3e9ma52o93krzczoa.pdf?utm_source=chatgpt.com" target="_blank"><i class="fas fa-book-open"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href="https://kitobsevar.uz/kxpv/xrpt_ab2uizoo67z6hpj6checmeg8lixl65v66modb6s72h29za52i04vdaspje3e9ma52o93krzczoa.pdf?utm_source=chatgpt.com"><i class="fas fa-download"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Xamsa</h5>
+                            <small>Alisher Navoiy</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/Kitoblar/badiiy/boburnoma.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href="https://kitobsevar.uz/kxpv/xrpt_674ii63vp3pc2lsdp3ibifui3pv7jlmfhgnrcgdt9uv18e4m8bngh9oaoa7zlj5upibtpecnzzd.pdf?utm_source=chatgpt.com" target="_blank" ><i class="fas fa-book-open"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href="https://kitobsevar.uz/kxpv/xrpt_674ii63vp3pc2lsdp3ibifui3pv7jlmfhgnrcgdt9uv18e4m8bngh9oaoa7zlj5upibtpecnzzd.pdf?utm_source=chatgpt.com"><i class="fas fa-download"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Boburnoma</h5>
+                            <small>Zahiriddin Muhammad Bobur</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/Kitoblar/badiiy/otkan kunlar.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href="https://arm.navoiy-uni.uz/wp-content/uploads/2019/04/utgan_kunlar_ziyouz_com.pdf?utm_source=chatgpt.com" target="_blank" ><i class="fas fa-book-open"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href="https://arm.navoiy-uni.uz/wp-content/uploads/2019/04/utgan_kunlar_ziyouz_com.pdf?utm_source=chatgpt.com"><i class="fas fa-download"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">O'tkan kunlar</h5>
+                            <small>Abdulla Qodiriy</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/Kitoblar/badiiy/kecha va kunduz.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href="https://kitobsevar.uz/kxpv/xrpt_gczxl0b16bszhm4m2ep39kudte24faklca0o0be5cytjbmy3rduoofs9jj3pjd3md33c4886vrf.pdf?utm_source=chatgpt.com" target="_blank"><i class="fas fa-book-open"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href="https://kitobsevar.uz/kxpv/xrpt_gczxl0b16bszhm4m2ep39kudte24faklca0o0be5cytjbmy3rduoofs9jj3pjd3md33c4886vrf.pdf?utm_source=chatgpt.com"><i class="fas fa-download"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Kecha va Kunduz</h5>
+                            <small>Cho'lpon</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/Kitoblar/badiiy/abul.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href="https://api.ziyonet.uz/uploads/books/1241539/5c9c9e7a95d32.pdf?HvVe9Il2PTooegGAAy41C" target="_blank"><i class="fas fa-book-open"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href="https://api.ziyonet.uz/uploads/books/1241539/5c9c9e7a95d32.pdf?HvVe9Il2PTooegGAAy41C"><i class="fas fa-download"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Abulfayzxon</h5>
+                            <small>Abdurauf Fitrat</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/Kitoblar/badiiy/shum bola.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <!-- Bu yerda faqat yuklab olish va o‘qish tugmalari bor edi -->
+                                <a class="btn btn-sm-square btn-primary mx-1" href="https://ipkmvd.uz/media/pdf/kitoblar/Shum_bola_Gafur_Gulom.pdf?utm_source=chatgpt.com" target="_blank"><i class="fa fa-book-open"></i></a> <!-- O‘qish -->
+                                <a class="btn btn-sm-square btn-primary mx-1" href="https://ipkmvd.uz/media/pdf/kitoblar/Shum_bola_Gafur_Gulom.pdf?utm_source=chatgpt.com" download><i class="fa fa-download"></i></a> <!-- Yuklab olish -->
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Shum bola</h5>
+                            <small>G'afur G'ulom</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/Kitoblar/badiiy/ruhlar.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href="https://n.ziyouz.com/books/uzbek_zamonaviy_sheriyati/Erkin%20Vohidov.%20Ruhlar%20isyoni.pdf?utm_source=chatgpt.com" target="_blank"><i class="fas fa-book-open"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href="https://n.ziyouz.com/books/uzbek_zamonaviy_sheriyati/Erkin%20Vohidov.%20Ruhlar%20isyoni.pdf?utm_source=chatgpt.com"><i class="fas fa-download"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Ruxlar Isyoni</h5>
+                            <small>Erkin Vohidov</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/Kitoblar/badiiy/qiyomat.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href="https://kitobsevar.uz/kxpv/xrpt_begiyey1c5j5vxz5jii7ylynkbvz46g50mcys2muuyngjdaulipaven7gav06455g7szy7iityo.pdf" target="_blank"><i class="fas fa-book-open"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href="https://kitobsevar.uz/kxpv/xrpt_begiyey1c5j5vxz5jii7ylynkbvz46g50mcys2muuyngjdaulipaven7gav06455g7szy7iityo.pdf"><i class="fas fa-download"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Qiyomat</h5>
+                            <small>Chingiz Aytmatov</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/Kitoblar/badiiy/hamlet.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href="https://www.gutenberg.org/cache/epub/1524/pg1524-images.html" target="_blank"><i class="fas fa-book-open"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href="https://www.gutenberg.org/cache/epub/1524/pg1524-images.html"><i class="fas fa-download"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Hamlet</h5>
+                            <small>William Shakespeare</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/Kitoblar/badiiy/don kixot.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href="https://www.gutenberg.org/cache/epub/996/pg996-images.html" target="_blank"><i class="fas fa-book-open"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href="https://www.gutenberg.org/cache/epub/996/pg996-images.html"><i class="fas fa-download"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Don Kixot</h5>
+                            <small>Miguel de Cervantes</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/Kitoblar/badiiy/urush va tinchlik.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href="https://www.gutenberg.org/cache/epub/2600/pg2600-images.html#link2HCH0001" target="_blank"><i class="fas fa-book-open"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href="https://www.gutenberg.org/cache/epub/2600/pg2600-images.html#link2HCH0001"><i class="fas fa-download"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Urush va tinchlik</h5>
+                            <small>Leo Tolstoy</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/Kitoblar/badiiy/jinoyat va jazo.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href="https://www.gutenberg.org/cache/epub/2554/pg2554-images.html" target="_blank"><i class="fas fa-book-open"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href="https://www.gutenberg.org/cache/epub/2554/pg2554-images.html"><i class="fas fa-download"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Jinoyat va jazo</h5>
+                            <small>Fyodor Dostoyevskiy</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/Kitoblar/badiiy/sohib.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href="https://www.gutenberg.org/cache/epub/2610/pg2610-images.html" target="_blank"><i class="fas fa-book-open"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href="https://www.gutenberg.org/cache/epub/2610/pg2610-images.html"><i class="fas fa-download"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Sohibjamol va maxluq</h5>
+                            <small>Victor Hugo</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/Kitoblar/badiiy/yuz yil.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href="https://litres.uz/static/or3/view/or.html?art_type=4&bname=Yolg%25E2%2580%2598izlikning%2520yuz%2520yili&art=69385858&user=0&uuid=c9a9569e-1397-11ee-8496-0cc47af30fe4&cover=%2Fpub%2Fc%2Fcover%2F69385858.jpg&uilang=uz&trial=1" target="_blank"><i class="fas fa-book-open"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href="https://litres.uz/static/or3/view/or.html?art_type=4&bname=Yolg%25E2%2580%2598izlikning%2520yuz%2520yili&art=69385858&user=0&uuid=c9a9569e-1397-11ee-8496-0cc47af30fe4&cover=%2Fpub%2Fc%2Fcover%2F69385858.jpg&uilang=uz&trial=1"><i class="fas fa-download"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Yuz yillik yolg'izlik</h5>
+                            <small>Gabriel García Márquez</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/Kitoblar/badiiy/jarayon.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href="https://www.gutenberg.org/cache/epub/7849/pg7849-images.html" target="_blank"><i class="fas fa-book-open"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href="https://www.gutenberg.org/cache/epub/7849/pg7849-images.html"><i class="fas fa-download"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Jarayon</h5>
+                            <small>Franz Kafka</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/Kitoblar/badiiy/begona.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href="https://www.gutenberg.org/cache/epub/7849/pg7849-images.html" target="_blank"><i class="fas fa-book-open"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href="https://www.gutenberg.org/cache/epub/7849/pg7849-images.html"><i class="fas fa-download"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Begona</h5>
+                            <small>Albert Camus</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+        
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <!-- Quick Links -->
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Quick Link</h4>
+                    <a class="btn btn-link" href="">About Us</a>
+                    <a class="btn btn-link" href="">Contact Us</a>
+                    <a class="btn btn-link" href="">Privacy Policy</a>
+                    <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="">FAQs & Help</a>
+                </div>
+    
+                <!-- Contact Info -->
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Bog'lanish</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Kasbi tumani, Oqqamish MFY, Namuna ko'chasi, 1-uy</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+998 88-311-00-50</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>ixm113@piima.uz</p>
+                    <p class="mb-0">ptma.kasbi.im@gmail.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-telegram-plane"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+    
+                <!-- Gallery -->
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Rasmlar</h4>
+                    <div class="row g-2 pt-2">
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-1.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-2.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-3.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-2.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-3.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Newsletter -->
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Yangi xabarlar</h4>
+                    <p>Royxatdan o'tib xabar yuborshingiz mumkin.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">ro'yxatdan o'ting</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Footer Copyright -->
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="kasbi-im" href="#">KASBI IM</a>, All Rights Reserved.
+                        <br>
+                        Designed by 
+                        <a class="footer-link" href="https://htmlcodex.com" target="_blank">HTML Codex</a> | 
+                        Developed by 
+                        <a class="footer-link" href="https://your-infinity-crew-link.com" target="_blank">INFINITY CREW</a>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="">Bosh sahifa</a>
+                            <a href="">Cookie fayllar</a>
+                            <a href="">Yordam</a>
+                            <a href="">FAQs</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    
+       
+        </script>
+</body>
+
+</html>
